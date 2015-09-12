@@ -1,6 +1,6 @@
 {
   "name": "regex-eol",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Regular expression to split a newline delimited string.",
   "author": {
     "name": "Athan Reines",
