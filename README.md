@@ -23,10 +23,10 @@ var re = require( 'regex-eol' );
 [Regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) to split a [newline](https://en.wikipedia.org/wiki/Newline) delimited `string`. 
 
 ``` javascript
-var bool = re.test( '\r\n' );
+var bool = re.test( '\n' );
 // returns true
 
-bool = re.test( '\n' );
+bool = re.test( '\r\n' );
 // returns true
 
 bool = re.test( '\\r\\n' );
